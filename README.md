@@ -2,6 +2,12 @@
 
 ### API Construída com Framework Laravel (PHP)
 
+API Simples construida como forma de teste à uma seleção.
+
+REST API com Laravel de um campeonato de futsal, onde se cadastra jogadores, times e as partidas.
+
+Também lista-se a tabela de classificação com os dados dos times, como pontos, saldo de gols, número de partidas, etc.
+
 <br/>
 
 ## Funcionalidades:
@@ -214,7 +220,7 @@ Header:
     Authorization: Bearer {{ _.user_token }}
 
 Body: no
-___
+
 <br/>
 
 ___
@@ -295,7 +301,7 @@ Header:
     Authorization: Bearer {{ _.user_token }}
 
 Body: no
-___
+
 
 <br/>
 
@@ -361,7 +367,6 @@ Header:
     Authorization: Bearer {{ _.user_token }}
 
 Body: no
-___
 
 <br/>
 
